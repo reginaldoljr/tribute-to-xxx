@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: rgb(255, 255, 255)
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.media a {
+  padding: 50px;
+}
+
+
+
+
+
+
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  max-width: 60%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.liveTimeline{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hisphoto {
+  max-width: 205px;
+}
+.sectionPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+figcaption {
+  font-size: 13px;
+}
+
+.line {
+  background-color: rgb(255, 255, 255);
+  color:rgb(2, 2, 2);
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 10px;
+
+}
+
+.year {
+  background-color: rgb(3, 3, 3);
+  display: inline-block;
+  font-size: 30px;
+}
+
+.line:hover {
+  background-color: rgba(204, 104, 104, 0.712);
+  color:rgb(255, 255, 255)
+}
+
+.titleLine {
+  font-family: 'Felipa', cursive;
+  font-size: 45px;
+}
+
+footer {
+  margin: 10px 5px;
+  text-align: center;
+  
+
+}
+
+@media (max-width: 660px)
+{
+  .description{
+     max-width: 90%;
+  }
+
+  .hisphoto {
+    height: 60vh;
+    width: 50vh;
+  }
+
+  .hisphoto {
+    max-width: 100vh;
+  }
+
+}
